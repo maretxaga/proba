@@ -4,7 +4,7 @@ import java.util.Scanner;
 	    public static void main(String[] args) {
 	    	long startTime = System.nanoTime();
 	        System.out.println("Kaixo mundua");	    
-	        long endTime = System.nanoTime() - startTime+6;
+	        long endTime = System.nanoTime() - startTime+10;
 	        System.out.println("Denbora: " + (endTime)/1e6 + " ms");
 	        }
 }
