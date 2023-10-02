@@ -2,10 +2,14 @@ import java.util.Scanner;
 
 	public class Nagusia {
 	    public static void main(String[] args) {
-	    	long startTime = System.nanoTime();
-	        System.out.println("Kaixo mundua");	    
-	        long endTime = System.nanoTime() - startTime+10;
-	        System.out.println("Denbora: " + (endTime)/1e6 + " ms");
+	    	
+	        System.out.println("Kaixo mundua");	
+	        int i = 0;
+	        while(i>0) {
+	        	System.out.println(i);
+	        	i++;
+	        }
+	        
 	        }
 }
 	
